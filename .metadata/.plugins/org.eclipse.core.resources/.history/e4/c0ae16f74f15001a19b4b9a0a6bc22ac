@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-schema="metro_madriz" match-name=".*" />
+	<table catalog="metro_madriz" name="t_accesos">
+		<column name="cod_acceso"></column>
+		<column name="cod_estacion"></column>
+		<column name="descripcion"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_cocheras">
+		<column name="cod_cochera"></column>
+		<column name="direccion"></column>
+		<column name="nombre"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_estaciones">
+		<column name="cod_estacion"></column>
+		<column name="numviajesdestino"></column>
+		<column name="nombre"></column>
+		<column name="direccion"></column>
+		<column name="numviajesprocedencia"></column>
+		<column name="numlineas"></column>
+		<column name="numaccesos"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_linea_estacion">
+		<column name="cod_linea"></column>
+		<column name="cod_estacion"></column>
+		<column name="cod_linea"></column>
+		<column name="cod_estacion"></column>
+		<column name="orden"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_lineas">
+		<column name="cod_linea"></column>
+		<column name="nombre"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_trenes">
+		<column name="cod_tren"></column>
+		<column name="cod_linea"></column>
+		<column name="nombre"></column>
+		<column name="cod_cochera"></column>
+		<column name="tipo"></column>
+	</table>
+	<table catalog="metro_madriz" name="t_viajes">
+		<column name="cod_VIAJE"></column>
+		<column name="nombre"></column>
+		<column name="estaciondestino"></column>
+		<column name="estacionorigen"></column>
+	</table>
+</hibernate-reverse-engineering>

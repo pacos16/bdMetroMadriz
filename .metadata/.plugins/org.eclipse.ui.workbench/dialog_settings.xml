@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="612"/>
+		<item key="dialogWidth" value="614"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.newWizard(newWizardId=org.hibernate.eclipse.console.wizards.NewReverseEngineeringFileWizard)"/>
+			<item value="org.hibernate.eclipse.launch.LaunchMenuDelegateMenu"/>
+			<item value="AUTOGEN:::org.hibernate.eclipse.launch.actionset/org.hibernate.eclipse.launch.LaunchMenuDelegateMenu"/>
+			<item value="org.hibernate.eclipse.console.HibernateConsolePerspective"/>
+			<item value="org.hibernate.eclipse.console.views.KnownConfigurationsView"/>
+			<item value="org.hibernate.eclipse.console.wizards.NewConfigurationWizard"/>
+			<item value="org.eclipse.ui.newWizard(newWizardId=org.hibernate.eclipse.console.wizards.ConsoleConfigurationCreationWizard)"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.wizards"/>
+			<item value="org.eclipse.ui.commands"/>
+		</list>
+		<list key="textEntries">
+			<item value="3"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="3"/>
+		</list>
+		<list key="textArray">
+			<item value="reverse en"/>
+			<item value="hibernate "/>
+			<item value="hibernat"/>
+			<item value="hibernate code generation c"/>
+			<item value="code"/>
+			<item value="hibernate code "/>
+			<item value="hibernate"/>
+			<item value="hibernate con"/>
+			<item value="create new hiber"/>
+			<item value="hibernate consol"/>
+			<item value="hibernate cons"/>
+			<item value="hibernate conso"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>
